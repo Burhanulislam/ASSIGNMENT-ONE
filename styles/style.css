@@ -217,3 +217,72 @@
     text-decoration-line: underline;
 }
 /* Target section end here */
+/* Hand-shake section starts here */
+.hand-shake{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    width: 946px;
+    height: 313px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+.support{
+    margin: 64px 48px;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.sujjest-me{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px 66px 20px 20px;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 16px;
+}
+.btn-submit{
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hand-shake .support{
+    padding: 50px;
+}
+.support-content{
+    margin-bottom: 20px;
+}
+/* handshake section end here */
+/* Footer part starts here */
