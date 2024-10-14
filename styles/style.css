@@ -49,6 +49,9 @@
 /* header part end here */
 
 /* main part starts here */
+.main-section{
+    
+}
 
 /* Why web development section start here */
 .development{
@@ -57,12 +60,16 @@
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-top: 74px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .why-development{
-    padding: 80px 48px 48px;
-    width: 850px;
+    padding: 80px 48px 48px 75px;
+    width: 750px;
     height: 113px;
+    
 }
 .develop-title{
     color: rgb(13, 19, 33);
@@ -127,3 +134,40 @@
     padding: 12px 20px 12px 20px;
 }
 /* Why web development section end here */
+
+/* Inspiration section starts here */
+.Inspiration{
+    margin-top: 90px;
+}
+.Inspiration-heading{
+    padding: 0 114px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inspiration-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inspiration-img{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+/* Inspiration section end here */
+
