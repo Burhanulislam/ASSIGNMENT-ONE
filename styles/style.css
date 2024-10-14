@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* common style for main-section */
+.create-margin{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 /* header-part starts here */
 .banner{
     background-image: url('../assets/Hero-bg.png');
@@ -45,3 +49,81 @@
 /* header part end here */
 
 /* main part starts here */
+
+/* Why web development section start here */
+.development{
+    width: 946px;
+    height: 1240px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+
+.why-development{
+    padding: 80px 48px 48px;
+    width: 850px;
+    height: 113px;
+}
+.develop-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.develop-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.work{
+    width: 477px;
+    height: auto;
+    padding-left: 47px;
+    background-color:white ;
+}
+.work-hard{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    padding: 48px;
+    gap: 99px;
+}
+.work-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.work-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.work-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+/* Why web development section end here */
