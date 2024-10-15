@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    margin: 0;
+    margin: 0 auto;
 }
 /* common style for main-section */
-.create-margin{
+/* .create-margin{
     margin-left: 150px;
     margin-right: 150px;
-}
+} */
 /* header-part starts here */
 .banner{
     background-image: url('../assets/Hero-bg.png');
@@ -56,6 +56,7 @@
 }
 
 /* header part end here */
+
 
 /* Why web development section start here */
 .development{
@@ -302,14 +303,13 @@
 /* handshake section end here */
 
 /* Footer part starts here */
-.footer{
+#footer{
     background-color:rgba(13, 19, 33, 0.03);
     margin-top: 80px;
-    align-items: center;
-    padding: 80px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .commitment{
     color: rgb(13, 19, 33);
@@ -317,15 +317,26 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    letter-spacing: 0%;   
+    letter-spacing: 0%;
+    text-align: center;  
 }
 .footer-section{
     width: 946px;
+    height: 36px;
     display: flex;
-    
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin: 32px 0;
+}
+.footer-title{
+    width: 550px;
+    height: 26px;
+    margin-left: 0;
+    margin-right: 77px;
 }
 .icon{
+    width: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
